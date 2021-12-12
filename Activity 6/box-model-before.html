@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Before</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: gray;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        #box {
+            background-color: blue;
+            padding: 10px 10px 10px 10px;
+            border: 5px solid black;
+            width: 200px;
+            height: 100px;
+            margin-top: 50px;
+            overflow: auto;
+        }
+
+        #content {
+            background-color: aqua;
+        }
+
+        h1{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras aliquam, lacus quis blandit lobortis, nulla ex rutrum odio, convallis fermentum enim leo eu lectus. Pellentesque aliquam sapien sed elementum dignissim. Morbi vestibulum mollis risus. Nullam mauris magna, lobortis eget efficitur semper, condimentum eu odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst.
+        </div>
+        
+    </div>
+    <div>Praesent sit amet eros nec nibh dignissim consectetur. Duis egestas, nunc vitae pharetra lobortis, urna erat cursus nisi, sit amet consectetur ex quam et lectus. Nunc ultrices nisl ac magna pretium luctus. Etiam at euismod lectus. Suspendisse volutpat elit urna, ut condimentum mi commodo faucibus. Phasellus in nulla vel felis pharetra tempor eu nec tellus. Suspendisse tristique orci nec justo sollicitudin laoreet non sed eros. Ut condimentum ut tellus et posuere. Aliquam porttitor, risus vitae porta tincidunt, felis dui lacinia libero, sit amet mattis sapien purus ut ligula. In hac habitasse platea dictumst. Vivamus et felis varius, ultricies enim sed, volutpat nibh. Aenean facilisis dui et risus imperdiet pellentesque. Sed at mauris sed dolor viverra tincidunt. Aliquam et nisi porttitor, venenatis lorem in, tincidunt est. Vivamus rhoncus eros non tellus laoreet consequat. Maecenas eu facilisis quam, ut mattis urna.</div>
+</body>
+</html>
